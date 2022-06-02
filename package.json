@@ -1,6 +1,6 @@
 {
   "name": "pagesshop_css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "statics css files for pagesshop.com",
   "main": "index.js",
   "scripts": {
