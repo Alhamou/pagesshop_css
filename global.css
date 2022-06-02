@@ -1,0 +1,269 @@
+/* hide buttons from editor text image link video */
+.ql-video, .ql-link{
+    display: none !important;
+}
+
+.f10{
+    font-size: 14px !important;
+}
+.f12{
+    font-size: 14px !important;
+}
+.f14{
+    font-size: 14px !important;
+}
+.f16{
+    font-size: 14px !important;
+}
+.f18{
+    font-size: 14px !important;
+}
+.f20{
+    font-size: 14px !important;
+}
+.f22{
+    font-size: 14px !important;
+}
+
+html[dir="ltr"] .ql-snow .ql-editor blockquote{
+    border-left: 4px solid #ccc !important;
+    border-right: 0;
+}
+.ql-editor{
+    padding: 0;
+}
+.ngx-quill-view .ql-editor{
+    overflow-y: visible;
+}
+.ngx-quill-view .ql-container, .ngx-quill-view, .ngx-quill-view .ql-editor{
+    height: auto;
+}
+form input:read-only,
+form textarea:read-only{
+    background-color: #ebebeb !important;
+}
+
+/* Video Youtube Css */
+.ytvideo * { box-sizing:border-box; } .ytvideo { margin:.5em auto 40px auto; max-width:480px; font-family:arial; text-align:center; position:relative; min-height:120px; background-color:#555; } .ytvideo p { position:absolute; margin:0; color:white; background-color:rgba(0,0,0,.5); } .ytvideo .yt_hd { font-size:16px; width:100%; height:28px; line-height:28px; text-align:left; top:0; left:0; padding-left:10px; overflow:hidden; } .ytvideo .yt_ft { font-size:12px; width:100%; bottom:0; left:0; } .ytvideo img { display:block; max-width:100%; border:0; } .ytvideo a:after { content:"\A0\25BA"; position:absolute; width:60px; height:50px; left:0; top:0; right:0; bottom:0; margin:auto; border:0; border-radius:10px; color:white; background:rgba(0,0,0,.6); font-size:24px; line-height:50px; cursor:pointer; } .ytvideo a:hover:after { background:#CC181E; } .ytvideo .yt_inp { position:absolute; top:100%; left:0; width:100%; text-align:center; padding:.5em .2em; xfont-size:18px; border:0; color:white; background: rgba(0,0,0,.7); } @media(max-device-width:960px){ .ytvideo { margin-bottom:60px; } .ytvideo .yt_inp { padding:1em .2em; } }
+
+
+
+
+/* Start Ebay Products */
+.prod_link{
+    text-decoration: none;
+    background: #FFF;
+    color: #565656;
+    display: block;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+}
+.prod_link:hover{
+    color: inherit;
+}
+.prod_link:hover .prod_title{
+    text-decoration: underline
+}
+.prod_link small{
+    color: #767676;
+    font-size: 12px;
+}
+.prod_title{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-size: 14px;
+    height: 62px;
+}
+.ul_prod{
+    list-style: none;
+    padding: 0 !important;
+    margin: auto;
+}
+.ul_prod li {
+    margin: 2px;
+    padding: 5px !important;
+    margin: 0 !important;
+}
+@media(max-width: 380px){
+    .ul_prod > li{
+        padding: 0 !important;
+    }
+    .prod_link {
+        padding: 2px;
+    }
+}
+._img_ads{
+    height: 140px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+.ads_price{
+    font-size: 17px;
+    font-weight: 700;
+    margin: 8px 0 0 0;
+    margin: 0px 0px 3px 0px;
+}
+.prod_link small, .prod_title, .ads_price {
+    font-family: "Helvetica neue",Helvetica,Verdana,sans-serif !important;
+}
+/* End Ebay Products */
+
+
+/* Start Ebay Products */
+.EBAYPRUDUCTS .prod_link{
+    text-decoration: none;
+    background: #FFF;
+    color: #565656;
+    display: block;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+}
+.EBAYPRUDUCTS .prod_link:hover{
+    color: inherit;
+}
+.EBAYPRUDUCTS .prod_link:hover .prod_title{
+    text-decoration: underline
+}
+.EBAYPRUDUCTS .prod_link small{
+    color: #767676;
+    font-size: 12px;
+}
+.EBAYPRUDUCTS .prod_title{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-size: 14px;
+    height: 62px;
+}
+.EBAYPRUDUCTS .ul_prod{
+    list-style: none;
+    padding: 0 !important;
+    margin: auto;
+}
+.EBAYPRUDUCTS .ul_prod li {
+    margin: 2px;
+    padding: 5px !important;
+    margin: 0 !important;
+}
+@media(max-width: 380px){
+    .EBAYPRUDUCTS .ul_prod > li{
+        padding: 0 !important;
+    }
+    .EBAYPRUDUCTS .prod_link {
+        padding: 2px;
+    }
+}
+.EBAYPRUDUCTS ._img_ads{
+    height: 140px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+.EBAYPRUDUCTS .ads_price{
+    font-size: 17px;
+    font-weight: 700;
+    margin: 8px 0 0 0;
+    margin: 0px 0px 3px 0px;
+}
+.EBAYPRUDUCTS .prod_link small, .prod_title, .ads_price {
+    font-family: "Helvetica neue",Helvetica,Verdana,sans-serif !important;
+}
+/* End Ebay Products */
+
+/* Start Ebay REviews */
+._Bewertungen{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 21px;
+}
+._Bewertungen .x{
+    color: #ffad33;
+}
+._Bewertungen span{
+    margin-right: 30px;
+    font-size: 23px;
+}
+
+.ebay_role_main{
+    display: grid;
+    grid-template-columns: 20px 6fr 2fr 2fr;
+    padding-bottom: 8px;
+}
+
+.ebay_role_main .itm2 .smal{
+    font-size: 11px;
+    color: gray;
+}
+.ebay_role_main .itm3{
+    font-size: 12px;
+}
+.ebay_role_main .itm4{
+    font-size: 12px;
+}
+.ebay_role_main .first{
+    padding: 0px 10px;
+    background: #f5f5f5;
+    min-height: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.ebay_role_main .next{
+    padding: 0px 10px;
+    min-height: 40px;
+    height: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media(max-width: 380px){
+    .ebay_role_main {
+        grid-template-columns: 20px 6fr 2fr;
+    }
+    .ebay_role_main .itm2 .smal{
+        margin: 6px 0;
+    }
+    .ebay_role_main .itm4{
+        display: none;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    ._Bewertungen >div:nth-child(1){
+        display: none !important;
+    }
+}
+
+/* End Ebay REviews */

@@ -1,0 +1,19 @@
+{
+  "name": "pagesshop_css",
+  "version": "1.0.0",
+  "description": "statics css files for pagesshop.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alhamou/pagesshop_css.git"
+  },
+  "author": "Emad Alhamou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alhamou/pagesshop_css/issues"
+  },
+  "homepage": "https://github.com/Alhamou/pagesshop_css#readme"
+}
