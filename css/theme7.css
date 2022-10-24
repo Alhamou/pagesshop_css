@@ -720,12 +720,12 @@
 }
 
 
-#TH_MAIN_ONE_PAGE > section > main > div > div.other-deatils > div > div > div.col-lg-8 > div:nth-child(5){
+.page-wrapper div.other-deatils > div > div > div.col-lg-8 > div:nth-child(5){
     padding: 0 !important;
 }
-#TH_MAIN_ONE_PAGE > section > main > div > div.other-deatils > div > div > div.col-lg-8 > div:nth-child(5) > span{
+.page-wrapper div.other-deatils > div > div > div.col-lg-8 > div:nth-child(5) > span{
     padding: 2em 3em 1em 3em;
 }
-#TH_MAIN_ONE_PAGE > section > main > div > div.other-deatils > div > div > div.col-lg-8 > div:nth-child(5) > div{
+.page-wrapper div.other-deatils > div > div > div.col-lg-8 > div:nth-child(5) > div{
     padding: 0 3em 3em 3em;
 }
